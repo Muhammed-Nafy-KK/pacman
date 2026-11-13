@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Treasure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+        <header class="header">
+            <h1>PIXEL TREASURE</h1>
+            <p>EXPLORE · COLLECT · SURVIVE</p>
+        </header>
+
+        <section class="game-shell">
+            <canvas id="gameCanvas" width="800" height="600">
+                Your browser does not support Canvas.
+            </canvas>
+        </section>
+
+        <footer>
+            <span>WASD / ARROWS — MOVE</span>
+            <span>P — PAUSE</span>
+            <span>ENTER — START</span>
+        </footer>
+
+        <div id="gameStats">FPS: 0</div>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
